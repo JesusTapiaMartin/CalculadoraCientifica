@@ -62,5 +62,9 @@ public class areasVolumenes {
     public static double volumenCono (double radio, double altura){
         return (1/3) * Math.PI * Math.pow(radio, 2) * altura;
     }
+
+    public static void main (String[] args){
+
+    }
 }
 
