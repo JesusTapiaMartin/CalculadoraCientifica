@@ -1,10 +1,11 @@
 
+
 import java.util.Scanner;
 import java.lang.Math;
 
 public class Main {
 
-    //========== MAIN ==========
+    //========== MAIN ===========
     public static void main(String[] args) {
     }
 
@@ -21,60 +22,51 @@ public class Main {
 
 
     //========== MULTIPLICACIÓN ==========
-    public static double multiplicacion(double num1, double num2){
+    public static double multiplicacion(double num1, double num2) {
         return num1 * num2;
     }
 
 
-    //========== DIVISIÓN ==========
+    //========== DIVISIÓN ===========
     public static double division(double num1, double num2){
         return num1 / num2;
     }
 
 
-    //========== MAYOR ==========
-    public static void mayor(double num1, double num2){
-
-        if (num1 > num2){
-            System.out.println(" El número 1 es el mayor        ");
-
-        } else if (num1 < num2){
-            System.out.println(" El número 2 es mayor           ");
-
-        } else if (num1 == num2){
-            System.out.println(" Los números son iguales        ");
-
+    //========== MAYOR ===========
+    public static double mayor(double num1, double num2){
+        if(num1 > num2){
+            return num1;
         } else {
-            System.out.println(" Ingrese un NÚMERO válido...    ");
-
+            return num2;
         }
     }
 
-    //========== MENOR QUE ==========
-    public static void menor(double num1, double num2){
-        if ( num1 > num2){
-            System.out.println(" El número 2 es el menor        ");
-
-        } else if (num2 > num1){
-            System.out.println(" El número 1 es el menor        ");
-
-        } else if (num1 == num2){
-            System.out.println(" Los números son IGUALES        ");
-
+    //========== MENOR ==========
+    public static double menor(double num1, double num2){
+        if(num1 < num2) {
+            return num1;
         } else {
-            System.out.println(" Ingrese un número válido...    ");
+            return num2;
         }
     }
 
 
-    //=========== POTENCIA ===========
-    public static double potencia(double num1, double num2){
+    //=========== IGUAL =============
+    public static double igual(double num1, double num2) {
+        return num1;
+    }
+
+
+
+    //=========== POTENCIA ============
+    public static double potencia(double num1, double num2) {
         return Math.pow(num1,num2);
     }
 
 
     //=========== PORCENTAJE ===========
-    public static double porcentaje(double base, double numPor){
+    public static double porcentaje(double base, double numPor) {
         return (numPor * 100) / base;
     }
 }
