@@ -1,5 +1,8 @@
 public class areasVolumenes {
 
+    public static void validarVariables (String[] args){
+
+    }
 
     //============================ CUADRADO ============================
     public static double perimetroCuadrado (double lado){
@@ -60,7 +63,7 @@ public class areasVolumenes {
         return (Math.PI * radio * altura) + (Math.PI * radio);
     }
     public static double volumenCono (double radio, double altura){
-        return (1/3) * Math.PI * Math.pow(radio, 2) * altura;
+        return ((1/3) * altura * Math.PI * Math.pow(radio, 2));
     }
 
 }
