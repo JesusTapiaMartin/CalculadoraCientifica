@@ -57,8 +57,7 @@ public class areasVolumenes {
 
     //============================ CONO ============================
     public static double superficieCono (double radio, double altura){
-        //nse como se hace dou
-        return radio;
+        return (Math.PI * radio * altura) + (Math.PI * radio);
     }
     public static double volumenCono (double radio, double altura){
         return (1/3) * Math.PI * Math.pow(radio, 2) * altura;
