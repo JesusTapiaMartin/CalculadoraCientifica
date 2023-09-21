@@ -7,8 +7,8 @@ public class Menu {
 
         do {
             System.out.println("========================================");
-            System.out.println("           Mega Calculadora             ");
-            System.out.println("              cientifica                ");
+            System.out.println("            MEGA CALCULADORA            ");
+            System.out.println("               CIENTÍFICA               ");
             System.out.println("========================================");
             System.out.println("    [1] Operaciones aritmeticas         ");
             System.out.println("    [2] Ecuaciones cuadraticas          ");
