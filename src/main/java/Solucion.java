@@ -21,7 +21,7 @@ public class Solucion {
             System.out.println(" Error: División por CERO ");
 
         } catch (IllegalArgumentException e) {
-            throw e;
+            System.out.println(e.getMessage());
 
         }
     }

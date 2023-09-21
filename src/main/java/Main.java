@@ -5,10 +5,6 @@ import java.lang.Math;
 
 public class Main {
 
-    //========== MAIN ===========
-    public static void main(String[] args) {
-    }
-
     //========== SUMA ==========
     public static double suma(double num1, double num2){
         return num1 + num2;
