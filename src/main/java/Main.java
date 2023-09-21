@@ -67,9 +67,43 @@ public class Main {
 
     //=========== PORCENTAJE ===========
     public static double porcentaje(double base, double numPor) {
-        return (numPor * 100) / base;
+        return (numPor * base) / 100;
     }
-}
 
-// METODO MOSTRAR RESULTADO
-// sout(EL MAYOR ES + metodo)
+    //=========== MOSTRAR RESULTADO SUMA =============
+    public static void resultadoSuma(double num1, double num2) {
+        double resultado = suma(num1, num2);
+        System.out.println(resultado);
+    }
+
+    //========== MOSTRAR RESULTADO RESTA =============
+    public static void resultadoResta(double num1, double num2) {
+        double resultado = resta(num1, num2);
+        System.out.println(resultado);
+    }
+
+    //========== MOSTRAR RESULTADO MULTIPLICACION =============
+    public static void resultadoMultiplicacion(double num1, double num2) {
+        double resultado = multiplicacion(num1, num2);
+        System.out.println(resultado);
+    }
+
+    //========== MOSTRAR RESULTADO DIVISION =============
+    public static void resultadoDivision(double num1, double num2) {
+        double resultado = division(num1, num2);
+        System.out.println(resultado);
+    }
+
+    //========== MOSTRAR RESULTADO POTENCIA =============
+    public static void resultadoPotencia(double num1, double num2) {
+        double resultado = potencia(num1, num2);
+        System.out.println(resultado);
+    }
+
+    //========== MOSTRAR RESULTADO PORCENTAJE =============
+    public static void resultadoPorcentaje(double num1, double num2) {
+        double resultado = porcentaje(num1, num2);
+        System.out.println(resultado);
+    }
+
+}
