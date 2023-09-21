@@ -14,7 +14,13 @@ Nombres: Benjamín Fernández,
 
 ==================== PASOS A DESARROLLAR ===============================
 
+
+Antes de comenzar la actividad, decidimos quien creaba el repositorio y como nos dividiremos el trabajo para mejorar
+el trabajo en equipo mientras se sigue aprendiendo con las actividades y los repositorios de github.
+
+
 A) Como grupo se nos pidio crear un programa que simule una calculadora cientifica que pueda hacer:
+
 -Operaciones aritmeticas
 
 -Ecuacion Cuadratica (soluciones)
@@ -40,6 +46,12 @@ R: ocurrira un error por lo cual nos saltara la siguiente excepcion: "Exception 
 
 R: Si intentamos imprimir la potencia 0^0, como salida nos saldra que es 1, lo cual esto se genera por una convencion matematica ya que al ser solo una operacion
 se considera que esta potencia es igual a 1, sin embargo en otras areas de matematicas como es el calculo puede que no sea asi (exclisivamente en limites), sin embargo,
-como es solo una operacion, se considera igual a 1
+como es solo una operacion, se considera igual a 1.
 
-¿
+¿Que pasa si se intenta ingresar una variable de entrada no numerica?
+
+R: Buscando en API de Java existe una excepcion llamada: "NumberFormatException" lo cual se produce cuando intentas convertir una cadena que no representa un número válido en un número.
+
+
+
+
