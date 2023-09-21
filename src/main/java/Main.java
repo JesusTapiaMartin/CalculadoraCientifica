@@ -61,7 +61,7 @@ public class Main {
 
     //=========== POTENCIA ============
     public static double potencia(double num1, double num2) {
-        return Math.pow(num1,num2);
+        return Math.pow(num1, num2);
     }
 
 
