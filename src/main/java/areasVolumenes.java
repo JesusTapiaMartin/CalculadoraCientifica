@@ -63,12 +63,56 @@ public class areasVolumenes {
         return (1/3) * Math.PI * Math.pow(radio, 2) * altura;
     }
 
+
+    //============================ PRUEBAS ============================
     public static void probarMetodosCuadrado (String[] args){
         double ladoCuadrado     = 5.0;
         double perimetro        = perimetroCuadrado(ladoCuadrado);
         double area             = areaCuadrado(ladoCuadrado);
         System.out.println("El perimetro del cuadrado es: " + perimetro);
         System.out.println("El perimetro del cuadrado es: " + area);
+    }
+
+    public static void probarMetodosRectangulo (String[] args){
+        double lado1Rectangulo    = 4.0;
+        double lado2Rectangulo    = 8.0;
+        double perimetro          = perimetroRectangulo(lado1Rectangulo, lado2Rectangulo);
+        double area               = areaRectangulo(lado1Rectangulo, lado2Rectangulo);
+        System.out.println("El perimetro del Rectangulo es: " + perimetro);
+        System.out.println("El perimetro del Rectangulo es: " + area);
+    }
+
+    public static void probarMetodosCirculo (String[] args){
+        double radio              = 6.0;
+        double perimetro          = perimetroCirculo(radio);
+        double area               = areaCuadrado(radio);
+        System.out.println("El perimetro del Circulo es:    " + perimetro);
+        System.out.println("El perimetro del Circulo es:    " + area);
+    }
+
+    public static void probarMetodosEsferas (String[] args){
+        double radio              = 6.5;
+        double superficie         = superficieEsfera(radio);
+        double volumen            = volumenEsfera(radio);
+        System.out.println("La superficie de la esfera es:  " + superficie);
+        System.out.println("El volumen de la esfera es:     " + volumen);
+    }
+
+    public static void probarMetodosCubo (String[] args){
+        double lado               = 7.0;
+        double superficie         = superficieCubo(lado);
+        double volumen            = volumenCubo(lado);
+        System.out.println("La superficie del cubo es:      " + superficie);
+        System.out.println("El volumen del cubo es:         " + volumen);
+    }
+
+    public static void probarMetodosCono (String[] args){
+        double lado               = 4.0;
+        double altura             = 8.0;
+        double superficie         = superficieCono(lado, altura);
+        double volumen            = volumenCono(lado, altura);
+        System.out.println("La superficie del cono es:      " + superficie);
+        System.out.println("El volumen del cono es:         " + volumen);
     }
 }
 
