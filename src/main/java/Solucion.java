@@ -1,6 +1,5 @@
 public class Solucion {
 
-
     //========== SOLUCIONES EC CUADRÁTICA ==========
     public static void ecCuadratica(double a, double b, double c){
         double x1       = (-b + Math.sqrt(Math.pow(b,2) - 4*a*c))/(2*a);
@@ -14,6 +13,7 @@ public class Solucion {
     //========== DISCRIMINANTE ==========
     public static double calcularDiscriminante(double a, double b, double c){
         double discriminante    = Math.pow(b,2) - (4*a*c);
+        System.out.println(discriminante);
         return discriminante;
     }
 
