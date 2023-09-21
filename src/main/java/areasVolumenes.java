@@ -63,8 +63,12 @@ public class areasVolumenes {
         return (1/3) * Math.PI * Math.pow(radio, 2) * altura;
     }
 
-    public static void main (String[] args){
-
+    public static void probarMetodosCuadrado (String[] args){
+        double ladoCuadrado     = 5.0;
+        double perimetro        = perimetroCuadrado(ladoCuadrado);
+        double area             = areaCuadrado(ladoCuadrado);
+        System.out.println("El perimetro del cuadrado es: " + perimetro);
+        System.out.println("El perimetro del cuadrado es: " + area);
     }
 }
 
