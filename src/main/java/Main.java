@@ -1,4 +1,3 @@
-package org.example;
 
 import java.util.Scanner;
 import java.lang.Math;
@@ -7,9 +6,7 @@ public class Main {
 
     //========== MAIN ==========
     public static void main(String[] args) {
-
     }
-
 
     //========== SUMA ==========
     public static double suma(double num1, double num2){
@@ -73,8 +70,8 @@ public class Main {
     //=========== POTENCIA ===========
     public static double potencia(double num1, double num2){
         return Math.pow(num1,num2);
-
     }
+
 
     //=========== PORCENTAJE ===========
     public static double porcentaje(double base, double numPor){
