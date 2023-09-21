@@ -34,4 +34,12 @@ B) Preguntas:
 
 ¿Que pasa si se intenta ingresar como divisor un CERO?
 
-R: 
+R: ocurrira un error por lo cual nos saltara la siguiente excepcion: "Exception in thread "main" java.lang.ArithmeticException: / by zero"
+
+¿Que pasa si base y exponente de la potencia son CERO?
+
+R: Si intentamos imprimir la potencia 0^0, como salida nos saldra que es 1, lo cual esto se genera por una convencion matematica ya que al ser solo una operacion
+se considera que esta potencia es igual a 1, sin embargo en otras areas de matematicas como es el calculo puede que no sea asi (exclisivamente en limites), sin embargo,
+como es solo una operacion, se considera igual a 1
+
+¿
